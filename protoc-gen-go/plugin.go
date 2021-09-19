@@ -29,7 +29,7 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-// protoc-gen-go is a plugin for the Google protocol buffer compiler to generate
+// Package plugin_goctl  is a plugin for the Google protocol buffer compiler to generate
 // Go code.  Run it by building this program and putting it in your path with
 // the name
 // 	protoc-gen-go
@@ -46,7 +46,7 @@
 //
 // See the README and documentation for protocol buffers to learn more:
 // 	https://developers.google.com/protocol-buffers/
-package main
+package plugin_goctl
 
 import (
 	"io/ioutil"
@@ -56,7 +56,7 @@ import (
 	"github.com/golang/protobuf/protoc-gen-go/generator"
 )
 
-func main() {
+func Generate() {
 	// Begin by allocating a generator. The request and response structures are stored there
 	// so we can do error handling easily - the response structure contains the field to
 	// report failure.

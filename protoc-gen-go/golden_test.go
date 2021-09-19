@@ -1,4 +1,4 @@
-package main
+package plugin_goctl
 
 import (
 	"bytes"

@@ -29,6 +29,6 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-package plugin_goctl
+package plugin
 
-import _ "github.com/golang/protobuf/protoc-gen-go/grpc"
+import _ "github.com/zeromicro/protobuf/protoc-gen-go/grpc"

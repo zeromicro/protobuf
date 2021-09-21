@@ -5,7 +5,7 @@ package structpb
 
 import (
 	fmt "fmt"
-	proto "github.com/golang/protobuf/proto"
+	proto "github.com/zeromicro/protobuf/proto"
 	math "math"
 )
 

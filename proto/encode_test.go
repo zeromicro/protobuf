@@ -29,6 +29,7 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+//go:build go1.7
 // +build go1.7
 
 package proto_test
@@ -37,9 +38,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/golang/protobuf/proto"
-	tpb "github.com/golang/protobuf/proto/proto3_proto"
-	"github.com/golang/protobuf/ptypes"
+	"github.com/zeromicro/protobuf/proto"
+	tpb "github.com/zeromicro/protobuf/proto/proto3_proto"
+	"github.com/zeromicro/protobuf/ptypes"
 )
 
 var (

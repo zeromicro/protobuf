@@ -1,1 +1,1 @@
-module github.com/golang/protobuf
+module github.com/zeromicro/protobuf

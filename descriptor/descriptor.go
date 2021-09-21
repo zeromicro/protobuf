@@ -42,8 +42,8 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/golang/protobuf/proto"
-	protobuf "github.com/golang/protobuf/protoc-gen-go/descriptor"
+	"github.com/zeromicro/protobuf/proto"
+	protobuf "github.com/zeromicro/protobuf/protoc-gen-go/descriptor"
 )
 
 // extractFile extracts a FileDescriptorProto from a gzip'd buffer.

@@ -5,9 +5,9 @@ package extension_user
 
 import (
 	fmt "fmt"
-	proto "github.com/golang/protobuf/proto"
-	extension_base "github.com/golang/protobuf/protoc-gen-go/testdata/extension_base"
-	extension_extra "github.com/golang/protobuf/protoc-gen-go/testdata/extension_extra"
+	proto "github.com/zeromicro/protobuf/proto"
+	extension_base "github.com/zeromicro/protobuf/protoc-gen-go/testdata/extension_base"
+	extension_extra "github.com/zeromicro/protobuf/protoc-gen-go/testdata/extension_extra"
 	math "math"
 )
 

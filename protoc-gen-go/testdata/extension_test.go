@@ -38,9 +38,9 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/golang/protobuf/proto"
-	base "github.com/golang/protobuf/protoc-gen-go/testdata/extension_base"
-	user "github.com/golang/protobuf/protoc-gen-go/testdata/extension_user"
+	"github.com/zeromicro/protobuf/proto"
+	base "github.com/zeromicro/protobuf/protoc-gen-go/testdata/extension_base"
+	user "github.com/zeromicro/protobuf/protoc-gen-go/testdata/extension_user"
 )
 
 func TestSingleFieldExtension(t *testing.T) {

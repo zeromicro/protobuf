@@ -46,14 +46,14 @@
 //
 // See the README and documentation for protocol buffers to learn more:
 // 	https://developers.google.com/protocol-buffers/
-package plugin_goctl
+package plugin
 
 import (
 	"io/ioutil"
 	"os"
 
-	"github.com/golang/protobuf/proto"
-	"github.com/golang/protobuf/protoc-gen-go/generator"
+	"github.com/zeromicro/protobuf/proto"
+	"github.com/zeromicro/protobuf/protoc-gen-go/generator"
 )
 
 func Generate() {

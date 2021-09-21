@@ -5,8 +5,8 @@ package import_public
 
 import (
 	fmt "fmt"
-	proto "github.com/golang/protobuf/proto"
-	sub "github.com/golang/protobuf/protoc-gen-go/testdata/import_public/sub"
+	proto "github.com/zeromicro/protobuf/proto"
+	sub "github.com/zeromicro/protobuf/protoc-gen-go/testdata/import_public/sub"
 	math "math"
 )
 

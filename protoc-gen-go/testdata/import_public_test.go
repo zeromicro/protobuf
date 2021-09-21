@@ -29,6 +29,7 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+//go:build go1.9
 // +build go1.9
 
 package testdata
@@ -36,8 +37,8 @@ package testdata
 import (
 	"testing"
 
-	mainpb "github.com/golang/protobuf/protoc-gen-go/testdata/import_public"
-	subpb "github.com/golang/protobuf/protoc-gen-go/testdata/import_public/sub"
+	mainpb "github.com/zeromicro/protobuf/protoc-gen-go/testdata/import_public"
+	subpb "github.com/zeromicro/protobuf/protoc-gen-go/testdata/import_public/sub"
 )
 
 func TestImportPublicLink(t *testing.T) {

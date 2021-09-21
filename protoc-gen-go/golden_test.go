@@ -1,4 +1,4 @@
-package plugin_goctl
+package plugin
 
 import (
 	"bytes"
@@ -24,7 +24,7 @@ var regenerate = flag.Bool("regenerate", false, "regenerate golden files")
 // pass itself to protoc.
 func init() {
 	if os.Getenv("RUN_AS_PROTOC_GEN_GO") != "" {
-		main()
+		Generate()
 		os.Exit(0)
 	}
 }

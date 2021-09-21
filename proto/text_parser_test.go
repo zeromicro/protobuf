@@ -36,9 +36,9 @@ import (
 	"math"
 	"testing"
 
-	. "github.com/golang/protobuf/proto"
-	proto3pb "github.com/golang/protobuf/proto/proto3_proto"
-	. "github.com/golang/protobuf/proto/test_proto"
+	. "github.com/zeromicro/protobuf/proto"
+	proto3pb "github.com/zeromicro/protobuf/proto/proto3_proto"
+	. "github.com/zeromicro/protobuf/proto/test_proto"
 )
 
 type UnmarshalTextTest struct {

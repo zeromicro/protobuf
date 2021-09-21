@@ -41,8 +41,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/golang/protobuf/proto"
-	pb "github.com/golang/protobuf/proto/test_proto"
+	"github.com/zeromicro/protobuf/proto"
+	pb "github.com/zeromicro/protobuf/proto/test_proto"
 )
 
 func TestGetExtensionsWithMissingExtensions(t *testing.T) {

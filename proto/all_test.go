@@ -45,9 +45,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/golang/protobuf/proto"
-	pb3 "github.com/golang/protobuf/proto/proto3_proto"
-	. "github.com/golang/protobuf/proto/test_proto"
+	. "github.com/zeromicro/protobuf/proto"
+	pb3 "github.com/zeromicro/protobuf/proto/proto3_proto"
+	. "github.com/zeromicro/protobuf/proto/test_proto"
 )
 
 var globalO *Buffer
